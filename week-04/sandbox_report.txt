@@ -1,0 +1,10 @@
+==================================================
+SESSION 10: SANDBOX DETONATION REPORT
+Operator: machi
+==================================================
+
+QUESTION 1: Did the ping to google.com succeed or fail in Host-Only mode?
+ANSWER: My ping to google.com failed while in Host-Only mode.
+
+QUESTION 2: Why must a SOC analyst NEVER use "Bridged" mode when detonating unknown malware?
+ANSWER: This is because Bridged mode places the VM on the same network as production thus exposing the malware to the production network.
