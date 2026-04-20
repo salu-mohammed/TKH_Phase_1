@@ -1,0 +1,15 @@
+==================================================
+SESSION 14: GROUP POLICY AUDIT REPORT
+==================================================
+
+QUESTION 1: What specific command do you run on a client machine to force it to download the latest Group Policy from the Domain Controller?
+ANSWER: [Type your answer here]
+Group Policy applies in the order Local → Site → Domain → OU. The OU level is applied last, so it overrides Domain, Site, and Local unless inheritance is blocked or a GPO is enforced.
+
+QUESTION 2: Explain the LSDOU acronym. If a Local Policy says "Enable USB" but the Domain Policy says "Disable USB", which one wins and why?
+ANSWER: [Type your answer here]
+The “Lockdown_ControlPanel” GPO linked to the Engineering OU.
+
+QUESTION 3: Why is it best practice to apply GPOs to Organizational Units (OUs) rather than the entire Domain?
+ANSWER: [Type your answer here]
+Because the GPO is linked directly to the Engineering OU, and OU-level policies apply last in the LSDOU order. Any user inside the Engineering OU inherits the policy.
