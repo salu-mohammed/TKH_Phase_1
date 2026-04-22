@@ -1,0 +1,17 @@
+==================================================
+SESSION 16: READINESS INVENTORY
+==================================================
+Operator: Salu Mohammed
+Date: 4/21/2026
+
+Confidence Audit (Yes/No):
+1. Nmap (Network Scanning): [No]
+2. Docker (Containerization): [Yes]
+3. Linux Hardening (UFW/chmod): [Yes]
+4. VS Code Remote-SSH: [Yes]
+
+Identify your weakest area and your plan to review it:
+My weakest Area is Nmap and my plan to improve includes learning more about the different 
+scan types, where and when to use them. Practice understanding the various states of the ports,
+open/closed/filtered. and learn how to scan entire subnets.
+==================================================
